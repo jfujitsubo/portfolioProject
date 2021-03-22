@@ -13,12 +13,12 @@ $header-font: "Lobster", cursive;
 .jumbotron {
     margin: 0;
     padding: 30px;
-    color: white;
+    color: $colorsecondary;
 }
 
 body {
     font-family: $body-font;
-    background-image: linear-gradient(to right, $color-mid, $color-primary, $color-mid);
+    
 }
 
 h1, h2, h3 {

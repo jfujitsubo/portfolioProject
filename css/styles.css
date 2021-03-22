@@ -1,11 +1,23 @@
+.card {
+  background-image: url("../img/bg2.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  opacity: .85;
+}
+
 .jumbotron {
   margin: 0;
   padding: 30px;
-  color: white; }
+  background-image: url("../img/bg1.jpg");
+  background-repeat:no-repeat;
+  background-position:center;
+  background-size:cover;
+  opacity: .85; }
 
 body {
   font-family: "Open Sans", sans-serif;
-  background-image: linear-gradient(to right, #525252, #000000, #525252); }
+ }
 
 h1, h2, h3 {
   font-family: "Lobster", cursive; }
@@ -14,7 +26,7 @@ h2 {
   color: #000000; }
 
 header h2 {
-  color: #b4b4b4; }
+  color: white; }
 
 .site-footer {
   background-image: linear-gradient(#b4b4b4, white);
